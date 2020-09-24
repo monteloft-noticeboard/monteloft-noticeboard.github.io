@@ -15,18 +15,26 @@ body{
 p{
     font-size: small;
 }
-
-
+button:hover{
+color:#f0a500;
+background-color:  #363062;
+}
+input:hover{
+    background-color: #ffac41
+}
 </style>
 </head>
 <body>
     <h1><center><img class="logo"  src="abcd.png" alt="logo" > </center> </h1>
     <h1 id="idAL">HOLA BIENVENIDO/A</h1>
     <h2>Por favor ingrese usuario</h2>
-    <form method="GET" action="index2.html">
+    <form method="POST" action="index.php">
         Usuario:
         <input type="text" name="usuarios">
-        <input type="submit" value="Submit">
+        <button type="submit">entrar</button>
+        </form>
+        <form method="POST" action="global_issues.html">
+            <button type="submit">global issues</button>  
     </form>
 <p>no se guardara</p>
 </body>
